@@ -1,0 +1,54 @@
+/*External css*/
+body {padding: 2em;}
+
+header,footer 
+{
+  background: yellowgreen;
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 1em;
+}
+.headerContainer
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-content:left;
+    background: tomato;
+    font-weight: bold;
+    padding: 10px;
+}
+.footerContainer
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: left;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 10px;
+}
+.mainConatiner
+{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+.mainContentItem
+{
+    text-align: left;
+    background :deepskyblue;
+}
+article
+{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;    
+}
+.sideBarRight1Item{background: hotpink;}
+.sideBarRight2Item{background:gold;}
+.sideBarItem {flex:1 0 0; border : 2px solid green;}
+.mainContentItem {flex :3 0px;}
+.mainContentItem {order: 1;}
+.sideBarRight1Item {order: 2}
+.sideBarRight2Item {order:3}
