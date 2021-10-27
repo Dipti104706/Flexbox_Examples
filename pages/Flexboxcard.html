@@ -1,0 +1,100 @@
+<!--card view using html and flex-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Layout</title>
+    <style>
+       body{
+           width: 50%;
+       }
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+      }
+      article {
+        flex: 0 0 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+      }
+      img {
+        max-width: 100%;
+      }
+      .card {
+        padding: 0 20px 20px;
+      }
+      button {
+        background: red;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <article>
+        <img src="../assets/1.jpg" alt="Sample photo" />
+        <div class="card">
+          <h3>Nature</h3>
+          <p>
+            In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and they’re still beautiful.
+          </p>
+          <button>Like!</button>
+        </div>
+      </article>
+      <article>
+        <img src="../assets/2.jpg" alt="Sample photo" />
+        <div class="card">
+          <h3>Sunset</h3>
+          <p>
+            The sun, with all those planets revolving around it and dependent on it, can still ripen a bunch of grapes as if it had nothing else in the universe to do. 
+          </p>
+          <button>Here's how</button>
+        </div>
+      </article>
+      <article>
+        <img src="../assets/3.jpg" alt="Sample photo" />
+        <div class="card">
+          <h3>Greenery</h3>
+          <p>
+            It is not so much for its beauty that the forest makes a claim upon men’s hearts, as for that subtle something, that quality of air that emanation from old trees, that so wonderfully changes and renews a weary spirit.
+          </p>
+          <button>Read more</button>
+        </div>
+      </article>
+      <article>
+        <img src="../assets/4.jpg" alt="Sample photo" />
+        <div class="card">
+          <h3>Scenery</h3>
+          <p>
+            Live in each season as it passes; breathe the air, drink the drink, taste the fruit, and resign yourself to the influence of the earth.
+          </p>
+          <button>Just do it...</button>
+        </div>
+      </article>
+      <article>
+        <img src="../assets/5.JPG" alt="Sample photo" />
+        <div class="card">
+          <h3>Peace</h3>
+          <p>
+            Nature teaches more than she preaches. There are no sermons in stones. It is easier to get a spark out of a stone than a moral. 
+          </p>
+          <button>Here's why</button>
+        </div>
+      </article>
+      <article>
+        <img src="../assets/6.jpg" alt="Sample photo" />
+        <div class="card">
+          <h3>Flower</h3>
+          <p>
+            What a lonely place it would be to have a world without a wildflower!
+          </p>
+          <button>Stop here</button>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
